@@ -78,31 +78,4 @@ h1 {
 	text-align:center;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Monoton');
 
-$lightColor: #F5EE9E;
-$darkColor: #F49E4C;
-$bgColor: #AB3428;
-
-.sub {
-  display: inline;
-  font-size: 15vw;
-  text-transform: uppercase;
-  color: $darkColor;
-  
-  @media (min-width: 700px) {
-    font-size: 9vw;
-  }
-  
-  @media (min-width: 1400px) {
-    font-size: 150px;
-  }
-}
-
-@supports (-webkit-background-clip: text) {
-	.sub {
-		color: transparent;
-		background: linear-gradient(7deg, $lightColor 50%, $darkColor 0);
-		-webkit-background-clip: text;
-	}
-}
