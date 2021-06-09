@@ -38,13 +38,13 @@ html, body{
 
 .bodyTi{
   background: #003c50;;
-  
+  width: 100%;
 }
 
 
 .bodyConte{
   background: #2a6f97;
-  
+
 }
 
 svg {
