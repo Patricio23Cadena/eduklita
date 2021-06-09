@@ -87,8 +87,8 @@ p {
 }
 
 .logo-1 {
-  color: white;
-  animation: neon 3s infinite;
+  color: blue;
+  animation: neon 2s infinite;
 }
 
 @keyframes neon {
