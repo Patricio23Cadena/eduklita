@@ -6,16 +6,17 @@ html, body{
 }
 
 body{
-  background: #003c50;
+  background: #030321;
   font-family: Arial;
 }
 
 svg {
     display: block;
     font: 10.5em 'Montserrat';
-    width: 1000px;
-    height: 800px;
-   }
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
 
 .text-copy {
     fill: none;
