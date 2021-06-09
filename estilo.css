@@ -41,6 +41,12 @@ html, body{
   
 }
 
+
+.bodyConte{
+  background: #2a6f97;;
+  
+}
+
 svg {
     display: block;
     font: 10.5em 'Montserrat';
