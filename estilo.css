@@ -33,11 +33,12 @@
 html, body{
   height: 100%;
   font-weight: 800;
+	  font-family: Arial;
 }
 
-body{
+.bodyTi{
   background: #003c50;;
-  font-family: Arial;
+  
 }
 
 svg {
