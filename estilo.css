@@ -2,16 +2,17 @@
 
 
 .auth{
-	 font-family: 'Baloo Tamma', cursive;
+ color:white; 
+	font-family: 'Baloo Tamma', cursive;
   text-align: center;
   width: 100%;
   margin: 0px auto;
   color: $clr-white;
   font-size: 50px;
   letter-spacing: 5px;
-  top: 50%;
+  //top: 50%;
   //position: absolute;
-  margin-top: -40px;
+  //margin-top: -40px;
   
   text-shadow: -1px -1px 0px $clr-blue,
     3px 3px 0px $clr-blue,
