@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-  background: #003c50;
+  background: #030321;
   font-family: Arial;
 }
 
@@ -54,16 +54,4 @@ svg {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
-}
-
-h1 {
-   
-    text-decoration: underline;
-    text-align:center;
-}
-
-li {
-   
-    text-decoration: underline;
-    text-align:center;
 }
