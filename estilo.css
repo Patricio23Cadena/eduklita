@@ -6,7 +6,7 @@
 .auth{
  color:white; 
 	font-family: 'Baloo Tamma', cursive;
-  text-align: center;
+  //text-align: center;
   width: 100%;
   margin: 0px auto;
   color: $clr-white;
