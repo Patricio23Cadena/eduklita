@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+.titulo{
+	align:center;
+	margin-top: -5%;
+}
+
+
 html, body{
   height: 100%;
   font-weight: 800;
