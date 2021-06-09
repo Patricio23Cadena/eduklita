@@ -66,4 +66,5 @@ svg {
 h1 { 
     font-weight:bold;
     text-decoration: underline;
+	text-align:center;
 }
