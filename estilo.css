@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .PnAuth{
+ text-align:center;
+}
+.PnDetalle{
  text-align:justify;
 }
 .auth{
