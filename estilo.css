@@ -58,16 +58,6 @@ html, body{
   
 }
 
-.bodyHerr{
-	display: inline-block;
-margin-bottom: 5px;
-  background: #001233;
-  width: 100%;
-  
-}
-
-
-
 svg {
     display: block;
     font: 10.5em 'Montserrat';
