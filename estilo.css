@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .divTabla{
-	align:center;
-	
+	left:50%;
 }
 
 
@@ -713,12 +712,12 @@ td {
 
 /*Pseudo-clases*/
 th:hover {
-  background-color: #c2bbf0;
+  background-color: #bbadff;
 	 border-collapse: collapse;
 }
 
 tr:hover {
-  background-color: #c2bbf0;
+  background-color: #bbadff;
 	 border-collapse: collapse;
 }
 
