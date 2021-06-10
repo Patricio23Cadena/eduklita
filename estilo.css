@@ -3,7 +3,9 @@
 .divTabla{
 	  margin-left:37%;
 }
-
+.alinear{
+justify-content: center;
+}
 
 .contenedor:hover{transform: scale(1.5);}
 .contenedor {
