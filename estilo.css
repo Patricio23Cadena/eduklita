@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .divTabla{
-	  display:flex;
-            flex-flow: row wrap;
-         	justify-content: space-between;
+	  margin-left:40%;
 }
 
 
