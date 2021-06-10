@@ -5,8 +5,7 @@
 }
 .PnDetalle{
  text-align:justify;
-	margin: 0;
-padding: 0;
+
 }
 .auth{
  color:white; 
@@ -39,14 +38,18 @@ html, body{
 }
 
 .bodyTi{
-  background: #003c50;;
+  background: #03045e;;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
 .bodyConte{
   background: #2a6f97;
-
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 svg {
