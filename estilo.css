@@ -706,12 +706,12 @@ td {
 
 /*Pseudo-clases*/
 th:hover {
-  background-color: #dee2ff;
+  background-color: #c2bbf0;
 	 border-collapse: collapse;
 }
 
 tr:hover {
-  background-color: #dee2ff;
+  background-color: #c2bbf0;
 	 border-collapse: collapse;
 }
 
