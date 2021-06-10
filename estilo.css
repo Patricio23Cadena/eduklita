@@ -6,7 +6,7 @@
 .alinear{
   margin-top:1%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contenedor:hover{transform: scale(1.5);}
