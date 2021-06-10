@@ -5,10 +5,8 @@
 }
 .PnDetalle{
  text-align:justify;
- border-top-width: 10px;
-  border-right-width: 1em;
-  border-bottom-width: thick;
-  border-left-width: thin;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .auth{
  color:white; 
