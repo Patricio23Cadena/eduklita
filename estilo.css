@@ -4,7 +4,9 @@
 	  margin-left:37%;
 }
 .alinear{
-justify-content: center;
+  margin-top:1%;
+  display: flex;
+  justify-content: center;
 }
 
 .contenedor:hover{transform: scale(1.5);}
