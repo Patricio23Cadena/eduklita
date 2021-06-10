@@ -675,11 +675,12 @@ color:#ffffff;
 
 
 table {
+  border-collapse: colapso;
   background: white;
   width: 50%;
-  margin: 0 auto;
+  //margin: 0 auto;
   margin-top: 2%;
-  border-collapse: collapse;
+  //border-collapse: collapse;
   text-align: center;
 }
 
