@@ -688,15 +688,15 @@ table {
 th {
   background-color: rgba(5, 5, 100, 95);
   height: 35px;
-  border-bottom: 1px solid rgb(210, 220, 250);
-  color: rgb(120, 120, 120);
+  //border-bottom: 1px solid rgb(210, 220, 250);
+   color: rgb(120, 120, 120);
    border-collapse: collapse;
 }
 
 td {
   color: rgba(100, 100, 100, 60);
   height: 30px;
-  border: 0.5px solid rgba(240, 240, 240, 10);
+  //border: 0.5px solid rgba(240, 240, 240, 10);
   border-collapse: collapse;
 }
 
