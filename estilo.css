@@ -51,7 +51,7 @@ html, body{
 
 .bodyConte{
 	display: inline-block;
-  background: #2a6f97;
+  background-image: linear-gradient(to right top, #05668d 0%, #c77dff 100%);
   width: 100%;
   
 }
