@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+element.style {
+    margin-bottom: 0px;
+    width: 1347px;
+    height: 10000px;
+}
+
+body {
+    background-color:#FF0000;
+}
+
+
+.menubar{
+    background-color:RED;
+}
+
+
+
+#footer{
+	height: 1000px;
+	font-size: 13px;
+	color: #001219;
+	text-align: center;
+	background: url(images/satelite2.jpg) bottom repeat-x;
+}

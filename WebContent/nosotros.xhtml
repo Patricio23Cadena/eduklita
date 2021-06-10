@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+      
+      <h:head>
+ 
+	<h:outputStylesheet library="css" name="estilos.css"/>
+	
+	</h:head>
+	<body>
+     <p:menubar styleClass="menubar" >
+	        <p:submenu label="Inicio" icon="pi pi-pencil" style="background-color:blue;" >
+	            <p:menuitem value="Inicio" url="http://localhost:8080/eduklita/index.xhtml" icon="pi pi-angle-double-left" />
+	            <p:menuitem value="GitHub" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" icon="pi pi-angle-double-right" target="_blank"/>
+	         	<p:menuitem value="Sitio Web Wordpress" url="http://localhost:8080/eduklita/index.xhtml" icon="pi pi-angle-double-right" target="_blank"/>
+	        </p:submenu>
+	 		
+			<p:menuitem value="¿Quiénes somos?" url="http://localhost:8080/eduklita/nosotros.xhtml" icon="pi pi-times"/>
+	 		 
+	 		 
+	        <p:submenu label="Ingresar" icon="pi pi-question" style="float:right" >
+	            
+	            <p:menuitem value="Login" url="http://localhost:8080/eduklita/nosotros.xhtml" />
+	        </p:submenu>
+	    </p:menubar>
+	    <br />
+	    <br />
+	 <div>  
+	 dfsod
+	    <p:carousel numVisible="1" effect="easeInStrong" background-color="powderblue;" headerText="Bienvenido" style="margin-bottom:0" autoPlayInterval="4000"  circular="true" >
+        
+        <p:tab title="Imagen 1">
+            <h:panelGrid columns="1" cellpadding="5">
+            	<a href="http://localhost:8080/eduklita/index.xhtml"><img src="images/satelite2.jpg" width="1500px" height="250px"></img></a>            
+            </h:panelGrid>
+        </p:tab>
+        <p:tab title="Imagen 2">
+            <h:panelGrid columns="2" cellpadding="5">
+                <a href="http://localhost:8080/eduklita/index.xhtml"><img src="images/satelite2.jpg" width="1500px" height="250px"></img></a>              
+            </h:panelGrid>
+        </p:tab>
+        <p:tab title="Imagen 3">
+            <h:panelGrid columns="2" cellpadding="5">
+                <a href="registro.jsf"><img src="images/satelite2.jpg" width="1500px" height="250px"></img></a>             
+            </h:panelGrid>
+        </p:tab>
+         
+        </p:carousel> 
+ </div>
+<br />
+ <div id="footer">
+        <p:dock position="top" >
+    <p:menuitem value="Facebook" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/> 
+    <p:menuitem value="Github" icon="images/github.png" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" target="_blank"/>
+    <p:menuitem value="Wordpress" icon="images/wordpress.png" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" target="_blank"/>
+</p:dock>
+</div>
+<br />
+</body>	
+ <div style="text-align: center; font-size: 1em;"><b>Copyright© 2021. EDUKLITA. Todos los derechos reservados. </b></div>
+ 
+ 
+</html>
