@@ -35,28 +35,27 @@ html, body{
   height: 100%;
   font-weight: 800;
 	  font-family: Arial;
+	  margin:0;
+  display: flex;
 }
 
 .bodyTi{
   background: #03045e;;
   width: 100%;
-  margin: 0;
-  padding: 0;
+
 }
 
 
 .bodyConte{
   background: #2a6f97;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  
 }
 
 .bodyHerr{
   background: #03045e;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  
 }
 
 
