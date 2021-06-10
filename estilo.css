@@ -52,6 +52,15 @@ html, body{
   padding: 0;
 }
 
+.bodyHerr{
+  background: #03045e;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
 svg {
     display: block;
     font: 10.5em 'Montserrat';
