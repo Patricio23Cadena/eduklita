@@ -41,8 +41,7 @@ html, body{
 }
 
 .bodyTi{
-	display: inline-block;
-margin-bottom: 5px;
+  display: inline-block;
   background: #03045e;;
   width: 100%;
 
@@ -51,7 +50,6 @@ margin-bottom: 5px;
 
 .bodyConte{
 	display: inline-block;
-margin-bottom: 5px;
   background: #2a6f97;
   width: 100%;
   
