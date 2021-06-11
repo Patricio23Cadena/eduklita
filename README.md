@@ -22,7 +22,8 @@ El programa está conformado por tres módulos:
 
 
 
-------------------------------------------------------------------------------PRE-RREQUISITOS---------------------------------------------------
+------------------------------------------------------------------------------PRE-RREQUISITOS-----------------------------------------------------
+
 Tener instalado las siguientes herramientas:
 
 1. Integrated Development Environment (IDE), el que se utlizó es Eclipse (versión 2021-03).
