@@ -63,7 +63,7 @@ https://patricio23cadena.github.io/eduklita/
 v1.0
 
 
-                                            ----------------AUTORES---------------
+                                           ----------------AUTORES---------------
 
 * Diego Bedoya
 * Patricio Cadena
@@ -71,12 +71,12 @@ v1.0
 * Saskia Guerrero
 
 
-                                              ---------------LICENCIA---------------
+                                            ---------------LICENCIA---------------
 
 GNU General Public License v3.0
 
 
-                                             ---------------AGRADECIMIENTO---------------
+                                           ---------------AGRADECIMIENTO---------------
 
 A mis ingenieros Patsy Prieto, Gustavo Návas y Ricardo Albarracín; sus conocimientos fueron precisos y sabios en solventar cada una de las dudas generadas
 a lo largo del desarrollo del proyecto integrador. Gracias por compartir sus conocimientos de manera profesional, pero sobretodo gracias por su paciencia,
