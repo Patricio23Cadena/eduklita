@@ -1,26 +1,165 @@
 @charset "ISO-8859-1";
 
-element.style {
-    margin-bottom: 0px;
-    width: 1347px;
-    height: 10000px;
+ 
+ 
+
+#bodyTi{
+   background: #030321;;
+ 
 }
 
+ 
+
+ 
+
+#Content{
+	height: 100px;
+	width:100%;
+	font-size: 13px;
+	color: White;
+	text-align: center;
+	 background-color:Black;
+}
+
+
+b{
+    text-align: center;
+     font-size: 2.5em;
+}
+
+
+.menubar{  
+     background: rgba(0,0,0,0.5);
+     border-style: none;
+     font-size: 1.5em;
+     
+    
+    
+} 
+
+.ui-menu .ui-menu-list .ui-menuitem .ui-menuitem-link .ui-menuitem-text {
+    float: none;
+    vertical-align: middle; 
+    font-weight: bolder;
+    font-style:Italic;
+}
+
+
+.affaires .ui-menu-child{background: rgba(0,0,0,0.5);}
+
+.menucolor{
+	
+	 color:White; 
+	
+}
+ 
+ 
+ 
+ 
+ .ui-menu, .ui-menu .ui-menu-child {
+    background: #c4c4c4 url(/eduklita/javax.faces.resource/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png.xhtml?ln=primefaces-aristo) top repeat-x;
+    background: #c4c4c4 linear-gradient(top,rgba(255,255,255,0.8),rgba(255,255,255,0));
+    background: rgba(0,0,0,0.5) -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.5)));
+    background: #c4c4c4 -moz-linear-gradient(top,rgba(255,255,255,0.8),rgba(255,255,255,0));
+    border-style: none;
+}
+ 
+ 
+.ui-menuitem .ui-widget .ui-corner-all .ui-menuitem-active{
+	
+	background:Black;
+	 
+} 
+ 
+.ui-menuitem-link .ui-corner-all .ui-state-hover{
+	
+	background:Black;
+} 
+submenu{
+	
+	 background: rgba(0,0,0,0.5);
+	border-style: none;
+} 
+
+
+.ui-widget-content a {
+    color: White;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
+html,
 body {
-    background-color:#FF0000;
+  height: 100%;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  background-color: #E1E2E1; 
+  
+}
+header{
+    background:#35429f;        
+}
+h2{
+   font-size: 72px;
+  background: -webkit-linear-gradient(#ff0000, #7686fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+animation-duration: 12s !important; /*tiempo que dura la animación*/ 
+animation-delay: 5s; /*tiempo de espera hasta que se produce la animación*/
+/*  animation-iteration-count: infinite;*/
 }
 
 
-.menubar{
-    background-color:RED;
-}
 
 
+
+
+
+
+
+
+
+
+
+
+
+ .ui-menu .ui-menu-list .ui-menuitem .ui-menuitem-link.ui-state-hover {
+        background: #858ae3; }
+
+
+
+ 
+ h4{
+ 
+   font-size: 60px;
+   font-family: Broadway;
+ color: #FFFFFF;
+text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0, 0 0 20px #2cd0f0, 0 0 20px #2cd0f0, 0 0 1px #2cd0f0, 0 0 12px #2cd0f0;
+ }
+ 
+ 
 
 #footer{
-	height: 1000px;
+	height: 100px;
+	width:100%;
 	font-size: 13px;
-	color: #001219;
+	color: White;
 	text-align: center;
-	background: url(images/satelite2.jpg) bottom repeat-x;
+	 background-color:Black;
 }
+
+ ui-dock-container-top ui-widget-header{
+ 
+ left: 311.5px; 
+   height:300px; 
+    width: 120px;
+ 
+ }
