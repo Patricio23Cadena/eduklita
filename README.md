@@ -54,6 +54,10 @@ El siguiente sistema fue desarrollado a través de las herramientas de java, jsf
 modelamiento de las tablas fueron generadas en Sql Power Architect y el desarrollo de la interfaz gráfica del sistema fue construida utilizando PRIMEFACES.
 
 
+--------------------------------------------------------------------------------------WIKI--------------------------------------------------------
+
+https://patricio23cadena.github.io/eduklita/
+
 
 --------------------------------------------------------------------------------------VERSIÓN--------------------------------------------------------
 
