@@ -1,6 +1,6 @@
 # EDUKLITA
 
-------------------------------------------------------------------------INTRODUCCIÓN------------------------------------------------------------------------
+------------------------------------------------------------------------INTRODUCCIÓN--------------------------------------------------------------------
 
 Este proyecto está orientado a estudiantes de quinto nivel de la carrera de Ingeniería en Ciencias de la Computación,
 en el cuál nuestro sistema puede encontrar las siguientes funcionalidades. 
@@ -56,10 +56,12 @@ modelamiento de las tablas fueron generadas en Sql Power Architect y el desarrol
 
 
 --------------------------------------------------------------------------------------VERSIÓN--------------------------------------------------------
+
 v1.0
 
 
 --------------------------------------------------------------------------------------AUTORES--------------------------------------------------------
+
 * Diego Bedoya
 * Patricio Cadena
 * Freddy Camacho
@@ -67,6 +69,7 @@ v1.0
 
 
 -------------------------------------------------------------------------------------LICENCIA---------------------------------------------------------
+
 GNU General Public License v3.0
 
 
