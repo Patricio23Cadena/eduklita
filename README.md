@@ -1,6 +1,6 @@
 # EDUKLITA
 
-                                                            ---------------INTRODUCCIÓN---------------
+                                          ---------------INTRODUCCIÓN---------------
 
 Este proyecto está orientado a estudiantes de quinto nivel de la carrera de Ingeniería en Ciencias de la Computación,
 en el cuál nuestro sistema puede encontrar las siguientes funcionalidades. 
@@ -12,7 +12,7 @@ El siguiente módulo de seguridad tendrá la potestad de administrar cada uno de
 tendrá un apartado de auditoría donde podrá guardar el registro de actividades.
 
 
-                                                            ---------------DETALLE DEL PROYECTO---------------
+                                     ---------------DETALLE DEL PROYECTO---------------
 
 Este proyecto está orientado ha proporcionar información detallada de la economía que dispone el sector educativo, dando a conocer los resultados estadísticos que nos brinda el INEC. La licencia que tiene el programa es: GNU General Public License v3.0. Tiene como propósito que el usuario pueda modificar, visualizar y descargar el código fuente, cada una de estas modificaciones no pueden ser privativas hacia los otros usuarios, ya que así lo especifíca la licencia respectivamente utilizada.
 El programa está conformado por tres módulos:
@@ -21,7 +21,7 @@ El programa está conformado por tres módulos:
 3. El tercer módulo es el de seguridad, en el cual permite la administración de usuarios (creación de usuarios, cambio de clave, bloqueo de usuarios y consulta de usuarios), guardando el registro de cada actividad realizada en la base de datos.
 
 
-                                                        ---------------PRE-RREQUISITOS---------------
+                                 ---------------PRE-RREQUISITOS---------------
 
 Tener instalado las siguientes herramientas:
 
@@ -37,33 +37,33 @@ Instalar las siguientes librerías en el IDE:
 2. PRIMEFACES
 
 
-                                                      ---------------INSTALACIÓN---------------
+                                              ---------------INSTALACIÓN---------------
 
 +++++++++++++++POR DESARROLLAR+++++++++++++++++++++++++
 
 
-                                                        ---------------PRUEBAS---------------
+                                                ---------------PRUEBAS---------------
 
 +++++++++++++++++++++++++POR DESARROLLAR+++++++++++++++++++++++++
 
 
-                                                    ---------------CONSTRUIDO CON---------------
+                                            ---------------CONSTRUIDO CON---------------
 
 El siguiente sistema fue desarrollado a través de las herramientas de java, jsf, y con una base de datos creada en el gestor de base de datos PostgreSQL, el
 modelamiento de las tablas fueron generadas en Sql Power Architect y el desarrollo de la interfaz gráfica del sistema fue construida utilizando PRIMEFACES.
 
 
-                                                        ---------------WIKI---------------
+                                                  ---------------WIKI---------------
 
 https://patricio23cadena.github.io/eduklita/
 
 
-                                                      ---------------VERSIÓN---------------
+                                                 ---------------VERSIÓN---------------
 
 v1.0
 
 
-                                                     ----------------AUTORES---------------
+                                                ----------------AUTORES---------------
 
 * Diego Bedoya
 * Patricio Cadena
@@ -71,12 +71,12 @@ v1.0
 * Saskia Guerrero
 
 
-                                                     ---------------LICENCIA---------------
+                                                 ---------------LICENCIA---------------
 
 GNU General Public License v3.0
 
 
-                                                  ---------------AGRADECIMIENTO---------------
+                                              ---------------AGRADECIMIENTO---------------
 
 A mis ingenieros Patsy Prieto, Gustavo Návas y Ricardo Albarracín; sus conocimientos fueron precisos y sabios en solventar cada una de las dudas generadas
 a lo largo del desarrollo del proyecto integrador. Gracias por compartir sus conocimientos de manera profesional, pero sobretodo gracias por su paciencia,
