@@ -1,6 +1,6 @@
 # EDUKLITA
 
-------------------------------------------------------------------------INTRODUCCIÓN--------------------------------------------------------------------
+                                                            ---------------INTRODUCCIÓN---------------
 
 Este proyecto está orientado a estudiantes de quinto nivel de la carrera de Ingeniería en Ciencias de la Computación,
 en el cuál nuestro sistema puede encontrar las siguientes funcionalidades. 
