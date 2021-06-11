@@ -37,12 +37,12 @@ Instalar las siguientes librerías en el IDE:
 2. PRIMEFACES
 
 
-                                              ---------------INSTALACIÓN---------------
+                                          ---------------INSTALACIÓN---------------
 
 +++++++++++++++POR DESARROLLAR+++++++++++++++++++++++++
 
 
-                                                ---------------PRUEBAS---------------
+                                            ---------------PRUEBAS---------------
 
 +++++++++++++++++++++++++POR DESARROLLAR+++++++++++++++++++++++++
 
@@ -53,17 +53,17 @@ El siguiente sistema fue desarrollado a través de las herramientas de java, jsf
 modelamiento de las tablas fueron generadas en Sql Power Architect y el desarrollo de la interfaz gráfica del sistema fue construida utilizando PRIMEFACES.
 
 
-                                                  ---------------WIKI---------------
+                                              ---------------WIKI---------------
 
 https://patricio23cadena.github.io/eduklita/
 
 
-                                                 ---------------VERSIÓN---------------
+                                            ---------------VERSIÓN---------------
 
 v1.0
 
 
-                                                ----------------AUTORES---------------
+                                            ----------------AUTORES---------------
 
 * Diego Bedoya
 * Patricio Cadena
@@ -71,12 +71,12 @@ v1.0
 * Saskia Guerrero
 
 
-                                                 ---------------LICENCIA---------------
+                                              ---------------LICENCIA---------------
 
 GNU General Public License v3.0
 
 
-                                              ---------------AGRADECIMIENTO---------------
+                                             ---------------AGRADECIMIENTO---------------
 
 A mis ingenieros Patsy Prieto, Gustavo Návas y Ricardo Albarracín; sus conocimientos fueron precisos y sabios en solventar cada una de las dudas generadas
 a lo largo del desarrollo del proyecto integrador. Gracias por compartir sus conocimientos de manera profesional, pero sobretodo gracias por su paciencia,
