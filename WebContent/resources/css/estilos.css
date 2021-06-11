@@ -117,26 +117,9 @@ animation-delay: 5s; /*tiempo de espera hasta que se produce la animación*/
 /*  animation-iteration-count: infinite;*/
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  .ui-menu .ui-menu-list .ui-menuitem .ui-menuitem-link.ui-state-hover {
         background: #858ae3; }
 
-
-
- 
  h4{
  
    font-size: 60px;
@@ -163,3 +146,89 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
     width: 120px;
  
  }
+ 
+ 
+ /*Letra del titulo de eduklita*/
+ 
+ 
+ .divcontenedorTi{
+  
+  width: 54%;  
+  height: 54%;
+ }
+ 
+ @import url(https://fonts.googleapis.com/css?family=Erica+One);
+/* BODY */
+.divtitulo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 54%;  
+  height: 54%;
+  background-color: rgba(0,0,0,0.5);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-top: 4.2%;
+}
+::selection {
+  background: transparent;
+}
+
+.letraTitulo {
+  cursor: default;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: auto;
+  display: block;
+  
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  font-family: 'Erica One', cursive;
+  font-size: 8em;
+  color: #00a8e8;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+
+/*Aqui termina la letra del titulo Eduklita*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
