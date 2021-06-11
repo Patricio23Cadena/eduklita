@@ -70,7 +70,7 @@ v1.0
 * Freddy Camacho
 * Saskia Guerrero
 
-                                      ---------------LICENCIA---------------
+                                     ---------------LICENCIA---------------
 
 GNU General Public License v3.0
 
