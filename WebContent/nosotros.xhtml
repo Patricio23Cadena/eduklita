@@ -1,84 +1,80 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets"
-      xmlns:f="http://java.sun.com/jsf/core"
-      xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:p="http://primefaces.org/ui">
-      
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>  
-    <h:link rel="shortcut icon" href="#"/>      
-    <h:link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css"/>    
-    <h:link rel="stylesheet" href="plugins/animate.css"/>  
-    <h:link rel="stylesheet" href="estilos.css"/>  
-      
-      
-      <h:head>
-      
- <style>
-	#Fondo{
-	background:url(images/satelite2.jpg);
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+
+
+<h:head>
+
+	<style>
+#Fondo {
+	background: url(images/satelite2.jpg);
 	background-size: cover;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
+}
+</style>
+	<h:outputStylesheet library="css" name="estilos.css" />
+	<title>NOSOTROS</title>
+</h:head>
+<h:body id="Fondo">
+
+<p:menubar styleClass="menubar">
+<p:submenu label="Inicio" icon="pi pi-pencil">
+	<p:menuitem style="color:White" value="Inicio"
+				url="index.jsf"
+				icon="pi pi-angle-double-left" />
+			<p:menuitem style="color:White" value="GitHub"
+				url="https://github.com/Patricio23Cadena/ProyectoIntegrador"
+				icon="pi pi-angle-double-right" target="_blank" />
+			<p:menuitem style="color:White" value="Wiki"
+				url="https://patricio23cadena.github.io/eduklita/"
+				icon="pi pi-angle-double-right" target="_blank" />
+			<p:menuitem style="color:White" value="Readme"
+				url="https://github.com/Patricio23Cadena/eduklita/blob/main/README.md"
+				icon="pi pi-angle-double-right" target="_blank" />
+</p:submenu>
+<p:menuitem value="Introducción" style="color:White"
+			outcome="introduccion"
+			icon="pi pi-times" />
+		<p:menuitem value="¿Quiénes somos?" style="color:White"
+			outcome="nosotros"
+			icon="pi pi-times" />
+		<p:menuitem value="Misión" style="color:White"
+			outcome="mision" icon="pi pi-times" />
+		<p:menuitem value="Visión" style="color:White"
+			outcome="vision" icon="pi pi-times" />
+		<p:menuitem value="Gráficos" style="color:White"
+			outcome="vision"
+			icon="pi pi-times" />
+</p:menubar>
 	
-	}
-	</style>
-	<h:outputStylesheet library="css" name="estilos.css"/>
-	<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=sTnLlLmBVHZfpcEdnsj3JhobqQRxqMmYiSUw39i9idtfwGUp6EiWl1xtkQN0uBdQVQkVQFwK0tHizWTl93udjg" charset="UTF-8">
-	</script>
-	<link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9wYXRyaWNpbzIzY2FkZW5hLmdpdGh1Yi5pby9lZHVrbGl0YS8"/>
-	<title> INDEX </title>
-	</h:head>
-	<h:body id="Fondo">
-	
-	
-	<p:menubar styleClass="menubar">
-	      <p:submenu label="Inicio" icon="pi pi-pencil" >
-	            <p:menuitem  style="color:White" value="Inicio" url="http://localhost:8080/eduklita/index.xhtml" icon="pi pi-angle-double-left" />
-	            <p:menuitem  style="color:White" value="GitHub" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" icon="pi pi-angle-double-right" target="_blank"/>
-	            <p:menuitem  style="color:White" value="Wiki" url="https://patricio23cadena.github.io/eduklita/" icon="pi pi-angle-double-right" target="_blank"/>
-	         	<p:menuitem  style="color:White" value="Readme" url="https://github.com/Patricio23Cadena/eduklita/blob/main/README.md" icon="pi pi-angle-double-right" target="_blank"/>
-	        </p:submenu>
-	 		  <p:menuitem value="Introducción"  style="color:White" url="http://localhost:8080/eduklita/introduccion.xhtml" icon="pi pi-times"/>
-			<p:menuitem value="¿Quiénes somos?"  style="color:White" url="http://localhost:8080/eduklita/nosotros.xhtml" icon="pi pi-times"/>
-	 		<p:menuitem value="Misión"  style="color:White" url="http://localhost:8080/eduklita/mision.xhtml" icon="pi pi-times"/>
-	 		<p:menuitem value="Visión"   style="color:White" url="http://localhost:8080/eduklita/vision.xhtml" icon="pi pi-times"/>
-	 		<p:menuitem value="Gráficos"   style="color:White" url="http://localhost:8080/eduklita/nosotros.xhtml" icon="pi pi-times"/>
-	       
-	    </p:menubar>
-	
-	 
-	
-	<div  >
-	  
-        <div style="height:50px"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">   
-     <h2 class="animated wobble infinite">EDUKLITA</h2>    
-                </div>
-            </div>
-        </div> 
-    
-    <script src="jquery/jquery-3.3.1.min.js"></script>	 	
-    <script src="popper/popper.min.js"></script>	 	 	
-    <script src="bootstrap4/js/bootstrap.min.js"></script>   
-   	  
-	
+	    
+	    
+	    
+	    
+	    
+	    
+	<h:link outcome="vision" value ="Click"/>
+	<div id="footer">
+		<p:dock position="top">
+			<p:menuitem value="Facebook" style="color:White"
+				icon="images/facebook.png" url="http://www.facebook.com"
+				target="_blank" />
+			<p:menuitem value="Github" style="color:White"
+				icon="images/github.png"
+				url="https://github.com/Patricio23Cadena/ProyectoIntegrador"
+				target="_blank" />
+			<p:menuitem value="Wordpress" style="color:White"
+				icon="images/wordpress.png"
+				url="https://github.com/Patricio23Cadena/ProyectoIntegrador"
+				target="_blank" />
+		</p:dock>
+		<br /> <b>Copyright© 2021. EDUKLITA. Todos los derechos
+			reservados. </b>
 	</div>
-	
-	
-	
-	
-	 </h:body>
- 
- <div id="footer">
-        <p:dock position="top" >
-    <p:menuitem value="Facebook" style="color:White" icon="images/facebook.png" url="http://www.facebook.com" target="_blank"/> 
-    <p:menuitem value="Github" style="color:White" icon="images/github.png" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" target="_blank"/>
-    <p:menuitem value="Wordpress" style="color:White" icon="images/wordpress.png" url="https://github.com/Patricio23Cadena/ProyectoIntegrador" target="_blank"/>
-</p:dock> 
-<br />
-<b>Copyright© 2021. EDUKLITA. Todos los derechos reservados. </b> 
-</div>  
- 
+</h:body>
 </html>

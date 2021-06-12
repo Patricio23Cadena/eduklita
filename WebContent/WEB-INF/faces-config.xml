@@ -24,7 +24,7 @@
 		<display-name>index.xhtml</display-name>
 		<from-view-id>/index.xhtml</from-view-id>
 		<navigation-case>
-			<from-outcome>intro</from-outcome>
+			<from-outcome>introduccion</from-outcome>
 			<to-view-id>/introduccion.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
@@ -36,5 +36,6 @@
 			<to-view-id>/vision.xhtml</to-view-id>
 		</navigation-case>
 	</navigation-rule>
+	 
 	
 </faces-config>
