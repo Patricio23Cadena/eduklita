@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16234593569280" configfile="/eduklita/WebContent/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="228" y="144" id="pf16234598045371" outlinks="pf16234598045372 pf16234598045373 pf16234598045374 pf16234598045375" path="/index.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="introduccion.xhtml" x="61" y="24" id="pf16234598045376" inlinks="pf16234598045373" path="/introduccion.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="mision.xhtml" x="204" y="24" id="pf16234598045377" inlinks="pf16234598045374" path="/mision.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="nosotros.xhtml" x="72" y="144" id="pf16234598045378" inlinks="pf16234598045372" path="/nosotros.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="vision.xhtml" x="72" y="252" id="pf16234598045379" inlinks="pf16234598045375" path="/vision.xhtml"/>
-  <links id="pf16234598045372" target="pf16234598045378" source="pf16234598045371" outcome="nosotros"/>
-  <links id="pf16234598045373" target="pf16234598045376" source="pf16234598045371" outcome="intro"/>
-  <links id="pf16234598045374" target="pf16234598045377" source="pf16234598045371" outcome="mision"/>
-  <links id="pf16234598045375" target="pf16234598045379" source="pf16234598045371" outcome="vision"/>
+  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" x="108" y="48" id="pf162346474428721" outlinks="pf162346474428722 pf162346474428723 pf162346474428724 pf162346474428725" path="/index.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="introduccion.xhtml" x="420" y="96" id="pf162346474428726" inlinks="pf162346474428724" path="/introduccion.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="mision.xhtml" x="372" y="180" id="pf162346474428727" inlinks="pf162346474428723" path="/mision.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="nosotros.xhtml" x="170" y="180" id="pf162346474428728" inlinks="pf162346474428722" path="/nosotros.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="vision.xhtml" x="444" y="24" id="pf162346474428729" inlinks="pf162346474428725" path="/vision.xhtml"/>
+  <links id="pf162346474428722" target="pf162346474428728" source="pf162346474428721" outcome="nosotros"/>
+  <links id="pf162346474428723" target="pf162346474428727" source="pf162346474428721" outcome="mision"/>
+  <links id="pf162346474428724" target="pf162346474428726" source="pf162346474428721" outcome="intro"/>
+  <links id="pf162346474428725" target="pf162346474428729" source="pf162346474428721" outcome="vision"/>
 </pageflow:Pageflow>
