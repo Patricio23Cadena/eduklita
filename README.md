@@ -37,7 +37,7 @@ Instalar las siguientes librerías en el IDE:
 2. PRIMEFACES
 
 
-                                    ---------------INSTALACIÓN---------------
+                                    ---------------INSTALACIÓN DEL PROGRAMA---------------
 
 +++++++++++++++POR DESARROLLAR+++++++++++++++++++++++++
 
