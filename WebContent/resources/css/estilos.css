@@ -96,11 +96,13 @@ submenu{
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
 html,
 body {
-  height: 100%;
+  /*min-height: 100%;*/
+  /*height:-webkit-fill-available;*/
   margin: 0;
+  height:100%;
   font-family: Lato, sans-serif;
   background-color: #E1E2E1; 
-  
+  /*overflow-y:scroll;*/
 }
 header{
     background:#35429f;        
@@ -132,12 +134,48 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
  
 
 #footer{
-	height: 100px;
+	/*margin-top:0.8%;*/
+	height: 30%;
 	width:100%;
-	font-size: 13px;
+	font-size: 0.5em;
 	color: White;
-	text-align: center;
-	 background-color:Black;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+
+.footerDiv{
+	padding-left:2%;
+	font-size: 0.6em;
+	color: White;
+	 display: flex;
+	flex-wrap: wrap;
+	align-content: flex-around;
+	flex-direction: column;
+	height: 100%;
+
+}
+.footerImg{
+	padding-left:15%;
+	height: 96%;
+	width:12%;
+}
+
+.gifTierra {
+	height: 100%;
+	width:100%;	
+	
+}
+
+.imgFoter{
+	padding-top:5%;
+	height: 15%;
+	width:15%;	
+}
+
+.foh1{
+	font-size:2.5em;
 }
 
  ui-dock-container-top ui-widget-header{
@@ -147,7 +185,6 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
     width: 120px;
  
  }
- 
  
  /*Letra del titulo de eduklita*/
  
@@ -171,7 +208,7 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
   background-color: rgba(0,0,0,0.5);
   background-attachment: fixed;
   background-size: 100% 100%;
-  overflow: hidden;
+ overflow: hidden;
   margin-top: 4.2%;
 }
 ::selection {
