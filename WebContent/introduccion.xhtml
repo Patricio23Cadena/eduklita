@@ -13,7 +13,7 @@
 	background-repeat: no-repeat;
 }
 </style>
-	<h:outputStylesheet library="css" name="estilos.css" />
+	<h:outputStylesheet library="css" name="introduccion.css" />
 	<title>INDEX</title>
 </h:head>
 <h:body id="Fondo">
@@ -44,9 +44,61 @@
 			icon="pi pi-times" />
 	</p:menubar>
 
-	<div class=" ">
-		 
+	<div class="divcontenedorTi">
+		<div class="divtitulo">
+			<h1 class="letraTitulo">EDUKLITA</h1>
+		</div>
+			<div class="detallePro">
+			<h1><strong>Cuentas satélite de los servicios de educación</strong>
+		</h1>
+		</div>
 	</div>
+	 
+	 <h:form id="form">
+    <p:growl id="msgs" showDetail="true" skipDetailIfEqualsSummary="true"/>
+    <div class="card">
+        <p:accordionPanel multiple="true" widgetVar="multiple">
+            <p:tab title="INTRODUCCION">
+                <p class="p-m-0">
+                    Este proyecto está orientado a estudiantes de quinto nivel de la carrera de Ingeniería en Ciencias de la Computación, en el cuál nuestro sistema
+                    puede encontrar las siguientes funcionalidades. El proyecto cuenta con tres módulos, donde cada usuario va a tener una distinta forma de
+                    interactuar con el sistema, el usuario invitado podrá ver información básica que contiene el sistema, dando un resumen de los indicadores y
+                    gráficas básicas. Este usuario a su vez podrá registrarse, o ingresar con su cuenta que se haya registrado. El usuario asignado al módulo
+                    reportes podrá crear y publicar los reportes avanzados, mediante la base de datos. El siguiente módulo de seguridad tendrá la potestad de
+                    administrar cada uno de los usuarios registrados, además tendrá un apartado de auditoría donde podrá guardar el registro de actividades.
+                </p>
+            </p:tab>
+            <p:tab title="DETALLE DEL PROYECTO">
+                <p class="p-m-0">
+                    Este proyecto está orientado ha proporcionar información detallada de la economía que dispone el sector educativo, dando a conocer los
+                    resultados estadísticos que nos brinda el INEC. La licencia que tiene el programa es: GNU General Public License v3.0. Tiene como propósito
+                    que el usuario pueda modificar, visualizar y descargar el código fuente, cada una de estas modificaciones no pueden ser privativas hacia los
+                    otros usuarios, ya que así lo especifíca la licencia respectivamente utilizada. El programa está conformado por tres módulos:
+                    
+                   <p>  1.El primer módulo está orientado a la creación y publicación de reportes avanzados, estos reportes serán presentados en una aplicación
+                      web, en el cuál el usuario ingresará o seleccionará los criterios de búsqueda para generar el reporte.
+                      </p>
+                    2.El segundo módulo se refiere a acceder sin necesidad de autentificación, indicando información básica de la aplicación para visitantes. 
+                      Incluye un resumen de los indicadores que maneja el sistema y gráficas básicas, en este módulo los visitantes no pueden crear un reporte.
+                      <p>
+                    3.El tercer módulo es el de seguridad, en el cual permite la administración de usuarios (creación de usuarios, cambio de clave, bloqueo de 
+                      usuarios y consulta de usuarios), guardando el registro de cada actividad realizada en la base de datos.
+                      </p>
+                </p>
+            </p:tab>
+            <p:tab title="Header III">
+                <p class="p-m-0">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                </p>
+            </p:tab>
+        </p:accordionPanel>
+    </div>
+    
+    </h:form>
+    
+	 
+	 
 	 
 	<div id="footer">	<div class="footerImg">
 		
