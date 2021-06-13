@@ -227,7 +227,7 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
  
  }
  
- 
+ /*Imagen*/
 .triangulo{
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -243,6 +243,8 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
 	 display: flex;
     justify-content: flex-end;
 }
+
+
  
  
 
