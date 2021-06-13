@@ -458,7 +458,93 @@ button.grow_spin::after {
 button.grow_spin:hover::after {
   transform: scale(1, 1) rotate(0deg);
 }
+
  
  
  
+ /*Aqui comienza el ccs del multiple selection */
  
+
+.ui-accordion .ui-accordion-header {
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;
+    min-height: 0;
+    padding: .5em .5em .5em 2.2em;
+}
+
+/* para cambiar el background del header*/
+.ui-accordion .ui-accordion-header {
+    margin: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #003566;
+}
+
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+    font-family: cursive;
+    background: rgba(0,0,0,0.5);
+}
+
+.ui-corner-top {
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+
+.ui-state-active {
+    -moz-box-shadow: inset 0 -1px 0 #fff;
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+}
+
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #7096ab;
+    background: #85b2cb url(/eduklita/javax.faces.resource/images/ui-bg_inset-hard_65_85b2cb_1x100.png.jsf?ln=primefaces-aristo) 50% 50% repeat-x;
+    background: #85b2cb linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.4));
+    background: #85b2cb -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),to(rgba(255,255,255,0.4)));
+    background: #85b2cb -moz-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,0.4));
+    font-weight: bold;
+    color: #f7f7f7;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 70%);
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #a8a8a8;
+    background: #c4c4c4 url(/eduklita/javax.faces.resource/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png.jsf?ln=primefaces-aristo) 50% 50% repeat-x;
+    background: #c4c4c4 linear-gradient(top,rgba(255,255,255,0.8),rgba(255,255,255,0));
+    background: #c4c4c4 -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.8)),to(rgba(255,255,255,0)));
+    background: #c4c4c4 -moz-linear-gradient(top,rgba(255,255,255,0.8),rgba(255,255,255,0));
+    font-weight: bold;
+    color: #f3ecec;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 70%);
+}
+.ui-accordion .ui-accordion-content {
+    color: lightcyan;
+    padding: 1em 2.2em;
+    border-top: 0;
+    margin-top: -2px;
+    position: relative;
+    top: 1px;
+    margin-bottom: 2px;
+    overflow: auto;
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
