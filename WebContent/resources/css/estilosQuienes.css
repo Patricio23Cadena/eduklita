@@ -48,4 +48,30 @@
   background-position: -15px center;
 }
 
-  
+
+
+
+
+#nombres {
+	 font-size: 2.5em; 
+ color: #FFFFFF;
+text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0, 0 0 20px #2cd0f0, 0 0 20px #2cd0f0, 0 0 1px #2cd0f0, 0 0 12px #2cd0f0;
+	 font-family: 'Erica One', cursive;
+}
+
+
+#informacion {
+	 font-size: 1.5em; 
+ color: Black;
+text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0, 0 0 20px #2cd0f0, 0 0 20px #2cd0f0, 0 0 1px #2cd0f0, 0 0 12px #2cd0f0;
+	 font-family: 'Erica One', cursive;
+}
+
+
+#info{
+	 font-size: 1em; 
+ color: White;
+text-shadow: 0 0 8px black, 0 0 2px black, 0 0 10px black, 0 0 6px black, 0 0 20px black, 0 0 20px black, 0 0 1px black, 0 0 12px black;
+	 font-family: 'Erica One', cursive;
+}
+
