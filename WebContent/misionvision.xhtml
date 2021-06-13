@@ -13,7 +13,7 @@
 	background-repeat: no-repeat;
 }
 </style>
-	<h:outputStylesheet library="css" name="estilos.css" />
+	<h:outputStylesheet library="css" name="misionV.css" />
 	<title>INDEX</title>
 </h:head>
 <h:body id="Fondo">
@@ -36,17 +36,42 @@
 			outcome="introduccion" icon="pi pi-times" />
 		<p:menuitem value="¿Quiénes somos?" style="color:White"
 			outcome="nosotros" icon="pi pi-times" />
-		<p:menuitem value="Misión" style="color:White" outcome="mision"
+		<p:menuitem value="Misión/vision" style="color:White" outcome="misionvision"
 			icon="pi pi-times" />
-		<p:menuitem value="Visión" style="color:White" outcome="vision"
-			icon="pi pi-times" />
-		<p:menuitem value="Gráficos" style="color:White" outcome="vision"
+		<p:menuitem value="Gráficos" style="color:White" outcome="misionvision"
 			icon="pi pi-times" />
 	</p:menubar>
-
-	<div class=" ">
-		 
+<div class="divcontenedorTi">
+		<div class="divtitulo">
+			<h1 class="letraTitulo">EDUKLITA</h1>
+		</div>
+			<div class="detallePro">
+		
+		
+		</div>
 	</div>
+	<div class="divepanel">
+	 <h:form id="form">
+    <p:growl id="msgs" showDetail="true" skipDetailIfEqualsSummary="true"/>
+    <div class="card">
+        <p:accordionPanel multiple="true" widgetVar="multiple">
+            <p:tab title="MISION">
+                <p class="p-m-0">
+                   Informar de manera detallada la economía en el sector educativo que existe en el país, creando diferentes
+                   usuarios que cumplen un papel importante en nuestra página web.
+                </p>
+            </p:tab>
+            <p:tab title="VISION">
+                <p class="p-m-0">
+                  Proveer de manera constante información detallada a nivel nacional, a través de diversas fuentes de datos
+                </p>
+            </p:tab>
+          
+        </p:accordionPanel>
+    </div>
+    
+    </h:form>
+    </div>
 	 
 	<div id="footer">	<div class="footerImg">
 		
