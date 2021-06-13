@@ -552,3 +552,9 @@ button.grow_spin:hover::after {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+
+.divepanel{
+	
+	width: 100%;
+}
