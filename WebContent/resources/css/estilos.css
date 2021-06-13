@@ -231,8 +231,8 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
 .triangulo{
 	background-size: cover;
 	background-repeat: no-repeat;
- 	height:25%; 
-    width: 25%;
+ 	height:65%; 
+    width: 65%;
     /*position: absolute;*/
 }
 
