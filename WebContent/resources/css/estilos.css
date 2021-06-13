@@ -94,16 +94,17 @@ submenu{
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700');
-html,
+
 body {
   /*min-height: 100%;*/
   /*height:-webkit-fill-available;*/
   margin: 0;
-  height:100%;
+  height:200%;
   font-family: Lato, sans-serif;
-  background-color: #E1E2E1; 
+  /*background-color: #E1E2E1; */
   /*overflow-y:scroll;*/
 }
+
 header{
     background:#35429f;        
 }
@@ -214,7 +215,7 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
 
 .foh2{
 	
-	font-size:1.5em;
+	font-size:1.2em;
 }
 
 
@@ -226,11 +227,26 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
  
  }
  
- /*Letra del titulo de eduklita*/
  
+
+ 
+ 
+ 
+ 
+ /*Letra del titulo de eduklita*/
+ .detallePro{
+	margin-top:35%;
+	
+	padding-top:1%;
+	text-align:center;
+	height: 30%;
+	width: 100%;
+	font-size:0.7em;
+	color:white;
+	font-family: "Consolas", monospace;;
+}
  
  .divcontenedorTi{
-  
   width: 54%;  
   height: 54%;
  }
@@ -245,10 +261,10 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
   bottom: 0;
   width: 54%;  
   height: 54%;
-  background-color: rgba(0,0,0,0.5);
+ /* background-color: rgba(0,0,0,0.5);*/
   background-attachment: fixed;
   background-size: 100% 100%;
- overflow: hidden;
+  overflow: hidden;
   margin-top: 4.2%;
 }
 ::selection {
@@ -287,7 +303,7 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
 /* ANIMATION */
 @-webkit-keyframes bounce {
   100% {
-    top: -30px;
+    top: -220px;
     
     text-shadow: 0 1px 0 #CCC,
                  0 2px 0 #CCC,
@@ -303,9 +319,148 @@ text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0
 }
 
 /*Aqui termina la letra del titulo Eduklita*/
+  .divBotonesRegistro{
+ 	display: inline-flex;
+  /*flex-direction: ;*/
+  flex-direction:row;
+	height: 100%;
+	width:85%;
+	padding-left:15%;
+ }
  
  
  
+ /*Botones*/
+ .wrapper {
+    height: 15%;
+	width:7%;
+	padding-left:3%;
+ /* max-width: 65rem;
+  width: 100%;*/
+  /*margin: 2rem auto;*/
+  /*padding: 5rem;*/
+  /*text-align: center;
+*/
+}
+hr {
+  border: 0;
+  border-bottom: 0.0625rem solid #bbb;
+  margin: 3rem 0;
+}
+button {
+  font-size: 1.0em;
+  background: #0077b6;
+  color: #fff;
+  border: 0.25rem solid #0077b6;
+  padding: 0.85em 0.75em;
+  margin: 2.1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+button:hover {
+  color: black;
+}
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+button.slide_from_left::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+button.slide_from_right::after {
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: -100%;
+}
+button.slide_from_top::after {
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+}
+button.slide_from_bottom::after {
+  left: 0;
+  right: 0;
+  top: 100%;
+  bottom: -100%;
+}
+button[class^="grow"]::after {
+  transition: all 0.3s ease;
+}
+button[class^="grow"]:hover::after {
+  transition: all 0.3s ease-out;
+}
+button.grow_box::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0);
+}
+button.grow_box:hover::after {
+  transform: scale(1, 1);
+}
+button.grow_ellipse::after {
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  line-height: 8.34em;
+  transform: scale(0, 0);
+}
+button.grow_ellipse:hover::after {
+  transform: scale(1, 1);
+}
+button.grow_skew_forward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+button.grow_skew_forward:hover::after {
+  transform: skewX(-45deg) scale(1, 1);
+}
+button.grow_skew_backward::after {
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(45deg) scale(0, 1);
+}
+button.grow_skew_backward:hover::after {
+  transform: skewX(45deg) scale(1, 1);
+}
+button.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+button.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
  
  
  
