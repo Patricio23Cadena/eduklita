@@ -749,7 +749,7 @@ tr:hover {
 /*Acordeon*/
 
 /* caja acordeon */
-.acordeon { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; 
+.acordeon { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:rgba(0,0,0,0.5); padding:10px; 
 font-size: 0.4em;
 height:100%;
 }
@@ -761,17 +761,17 @@ Generales
 *********/
 
 /* ABIERTO */
-.acordeon section:target { background:#FFF; padding:10px;}
+.acordeon section:target { background:rgba(0,0,0,0.5); padding:10px;}
 .acordeon section:target:hover { background:#FFF; }
 .acordeon section:target h2 {width:100%;}
 .acordeon section:target h2 a{ color:#333; padding:0;}
 .acordeon section:target p {display:block;}
 .acordeon section:target:before {display:none;}
-.acordeon section h2 a{padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
+.acordeon section h2 a{padding:34% 10px;display:block; font-size:3em; font-weight:normal;color:#eee; text-decoration:none; }
 
 /* CERRADO */
-.acordeon section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
-.acordeon section:hover {background:#444;}
+.acordeon section{ float:left;	overflow:hidden; color:#FFF; cursor:pointer; background: rgb(24 24 82); margin:3px; }
+.acordeon section:hover {background:rgba(0,0,0,0.5);}
 .acordeon section p { display:none; }
 .acordeon section:before{position:relative;font-size:24px;color:#fff;font-weight:bold;}
 .acordeon section:nth-child(1):before{content:'1';}
@@ -809,7 +809,7 @@ Generales
 /*  */
 
 /*abrir al hacer hover*/
-.horizontal :target{ width:73%;height:230px; }
+.horizontal :target{ width:73%;height:94%; }
 .horizontal :target h2{ top:0px;left:0;
 	-webkit-transform:rotate(0deg);
 	-moz-transform:rotate(0deg);
