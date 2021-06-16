@@ -55,18 +55,22 @@ html, body{
 	  margin:0;
   display: flex;
 	flex-direction: column;
+background: url("IMG/satelite2.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+	
 }
 
 .bodyTi{
   display: inline-block;
-  background: #030321;;
+  /*background: #030321;;*/
   width: 100%;
 
 }
 
 .bodyFi{
   display: inline-block;
-  background: #030321;;
+  /*background: #030321;;*/
   width: 100%;
   min-height: 32%;
 }
@@ -76,9 +80,7 @@ html, body{
 	display: inline-block;
   /*background-image: linear-gradient(to right top, #780000 0%, #fdf0d5 100%);*/
   width: 100%;
-  background: url("IMG/satelite2.jpg");
-background-size:cover;
-background-repeat: no-repeat;
+ 
 }
 
 svg {
