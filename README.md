@@ -14,7 +14,7 @@ tendrá un apartado de auditoría donde podrá guardar el registro de actividade
 
                                     ---------------DETALLE DEL PROYECTO---------------
 
-Este proyecto está orientado ha proporcionar información detallada de la economía que dispone el sector educativo, dando a conocer los resultados estadísticos que nos brinda el INEC. La licencia que tiene el programa es: GNU General Public License v3.0. Tiene como propósito que el usuario pueda modificar, visualizar y descargar el código fuente, cada una de estas modificaciones no pueden ser privativas hacia los otros usuarios, ya que así lo especifíca la licencia respectivamente utilizada.
+Este proyecto está orientado ha proporcionar información detallada de la economía que dispone el sector educativo, dando a conocer los resultados estadísticos que nos brinda el INEC. La licencia que tiene el programa es: GNU General Public License v3.0. Tiene como propósito que el usuario pueda modificar, visualizar y descargar el código fuente, cada una de estas modificaciones no pueden ser privativas hacia los otros usuarios, ya que así lo especifica la licencia respectivamente utilizada.
 El programa está conformado por tres módulos:
 1. El primer módulo está orientado a la creación y publicación de reportes avanzados, estos reportes serán presentados en una aplicación web, en el cuál el usuario ingresará o seleccionará los criterios de búsqueda para generar el reporte.
 2. El segundo módulo se refiere a acceder sin necesidad de autentificación, indicando información básica de la aplicación para visitantes. Incluye un resumen de los indicadores que maneja el sistema y gráficas básicas, en este módulo los visitantes no pueden crear un reporte.
