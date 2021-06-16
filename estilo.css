@@ -803,7 +803,7 @@ Generales
 	-o-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	transform: rotate(-90deg);
-	width:240px; position:relative; left:-100px; top:65px;
+	width:240px; position:relative; left:-100px; top:10%;
 } 
 
 /*  */
