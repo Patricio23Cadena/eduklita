@@ -820,6 +820,68 @@ Generales
 
 
 
+/*Acordian Autores*/
+ul.acordeon * {
+  transition: all .6s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+/* Contenedor general */
+ul.acordeon {
+  width: 100%; /* Personalizar ancho total */
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  font-size: 0;
+}
+/* Cada elemento */
+ul.acordeon li {
+  position: relative;
+  display: inline-block;
+  *display: inline; zoom: 1; /* IE7 */
+  width: 16.66%; 
+  background: #fff;
+  height:0;
+  padding-bottom: 24%; /* Ratio aspecto imagen = (height*X)/width */
+  text-align: center;
+  border:1px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* Títulos pestañas */
+/* Contenido inicialmente oculto */
+ul.acordeon li a, ul.acordeon li img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  *display: inline; zoom: 1; /* IE7 */
+  height: 100%;
+  padding:0;
+  background: #333;
+  object-fit: cover;
+}
+/* Hover: Desplegamos elemento aumentando su ancho */
+ul.acordeon:hover li {
+  width: 13%;
+}
+ul.acordeon li:hover {
+  width: 35%; /* 100 - 10*(nºelem-1) // X=60 para ratio imagen */ 
+  background: #333;
+}
+/* Hover: Hacemos que el título recupere la horizontal y le ponemos un fondo */
+/* Hover: Expandimos el contenido */
+ul.acordeon li:hover a{
+  width: 100%; 
+}
+/* Ajustes para resoluciones pequeñas */
+@media(max-width:600px) {
+  ul.acordeon li h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+}
 
 
 
