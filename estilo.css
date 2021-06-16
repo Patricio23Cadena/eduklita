@@ -76,7 +76,9 @@ html, body{
 	display: inline-block;
   /*background-image: linear-gradient(to right top, #780000 0%, #fdf0d5 100%);*/
   width: 100%;
-  
+  background: url("IMG/satelite2.jpg");
+background-size:cover;
+background-repeat: no-repeat;
 }
 
 svg {
