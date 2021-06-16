@@ -748,7 +748,10 @@ tr:hover {
 /*Acordeon*/
 
 /* caja acordeon */
-.acordeon { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; }
+.acordeon { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; 
+font-weight:0.2em;
+
+}
 
 /********
 
