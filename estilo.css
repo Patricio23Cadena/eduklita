@@ -24,7 +24,7 @@ html { font-size: 100%; overflow-y: scroll;}
  text-align:justify;
   margin-left: 2em;
   margin-right: 2em;
-  height:50vh;
+   height:62vh;
 }
 .auth{
  color:white; 
@@ -762,9 +762,9 @@ Generales
 
 /* ABIERTO */
 .acordeon section:target { background:rgba(0,0,0,0.5); padding:10px;}
-.acordeon section:target:hover { background:#FFF; }
+.acordeon section:target:hover { background:rgba(0,0,0,0.5); }
 .acordeon section:target h2 {width:100%;}
-.acordeon section:target h2 a{ color:#333; padding:0;}
+.acordeon section:target h2 a{ color:#FFF; padding:0;}
 .acordeon section:target p {display:block;}
 .acordeon section:target:before {display:none;}
 .acordeon section h2 a{padding:34% 10px;display:block; font-size:3em; font-weight:normal;color:#eee; text-decoration:none; }
