@@ -24,6 +24,7 @@ html { font-size: 100%; overflow-y: scroll;}
  text-align:justify;
   margin-left: 2em;
   margin-right: 2em;
+  height:50vh;
 }
 .auth{
  color:white; 
@@ -749,8 +750,8 @@ tr:hover {
 
 /* caja acordeon */
 .acordeon { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; 
-font-weight:0.2em;
-
+font-size: 0.4em;
+height:100%;
 }
 
 /********
@@ -784,7 +785,7 @@ Generales
 
 /** HORIZONTAL **/
 
-.horizontal section{ width:5%; height:250px; 
+.horizontal section{ width:5%; height:100%; 
 	-moz-transition:width 0.2s ease-out; 
 	-webkit-transition:width 0.2s ease-out;
   	-o-transition:width 0.2s ease-out;
