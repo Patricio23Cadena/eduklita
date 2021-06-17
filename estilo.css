@@ -841,7 +841,7 @@ ul.acordeon li {
   display: inline-block;
   *display: inline; zoom: 1; /* IE7 */
   width: 16.66%; 
-  background: #fff;
+  background: rgba(0,0,0,0.5);;
   height:0;
   padding-bottom: 24%; /* Ratio aspecto imagen = (height*X)/width */
   text-align: center;
@@ -859,15 +859,15 @@ ul.acordeon li a, ul.acordeon li img {
   *display: inline; zoom: 1; /* IE7 */
   height: 100%;
   padding:0;
-  background: #333;
+  /*background: #333;*/
   object-fit: cover;
 }
 /* Hover: Desplegamos elemento aumentando su ancho */
 ul.acordeon:hover li {
-  width: 13%;
+  width: 5%;
 }
 ul.acordeon li:hover {
-  width: 35%; /* 100 - 10*(nºelem-1) // X=60 para ratio imagen */ 
+  width: 24.5%; /* 100 - 10*(nºelem-1) // X=60 para ratio imagen */ 
   background: #333;
 }
 /* Hover: Hacemos que el título recupere la horizontal y le ponemos un fondo */
