@@ -913,16 +913,16 @@ background-position: 50% 50%;
 cursor: pointer;
 }
 .imagen:nth-of-type(1) {
-background-image: url("IMG/cadena.png");
+background-image: url("IMG/guerrero.png");
 }
 .imagen:nth-of-type(2) {
-background-image: url(https://lh5.googleusercontent.com/-KijskybjlCc/UCPyNCwVxPI/AAAAAAAAEDg/8AwgBhZyhG4/s800/fuerzas-naturaleza2.jpg);
+background-image: url("IMG/camacho.png");
 }
 .imagen:nth-of-type(3) {
-background-image: url(https://lh5.googleusercontent.com/-uGIMoR677PM/UCPyOBjNWVI/AAAAAAAAEDo/XE73W5FQW-c/s800/fuerzas-naturaleza3.jpg);
+background-image: url("IMG/cadena.png");
 }
 .imagen:nth-of-type(4) {
-background-image: url(https://lh5.googleusercontent.com/-nbNq900tVT4/UCPyQeZkP_I/AAAAAAAAEDw/WsBQhD2Da-o/s800/fuerzas-naturaleza4.jpg);
+background-image: url("IMG/bedoya.png");
 }
 .imagen:before {
 content: "";
