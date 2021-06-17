@@ -840,7 +840,7 @@ ul.acordeon li {
   position: relative;
   display: inline-block;
   *display: inline; zoom: 1; /* IE7 */
-  width: 16.66%; 
+  width: 10%; 
   background: rgba(0,0,0,0.5);;
   height:0;
   padding-bottom: 24%; /* Ratio aspecto imagen = (height*X)/width */
@@ -868,7 +868,7 @@ ul.acordeon:hover li {
 }
 ul.acordeon li:hover {
   width: 24.5%; /* 100 - 10*(nºelem-1) // X=60 para ratio imagen */ 
-  background: #333;
+  /*background: #333;*/
 }
 /* Hover: Hacemos que el título recupere la horizontal y le ponemos un fondo */
 /* Hover: Expandimos el contenido */
