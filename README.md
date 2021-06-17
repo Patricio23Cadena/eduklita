@@ -72,7 +72,8 @@ v1.0
 
                                      ---------------LICENCIA---------------
 
-GNU General Public License v3.0
+BSD-3-Clause License
+
 
 
                                       ---------------AGRADECIMIENTO---------------
