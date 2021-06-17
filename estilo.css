@@ -900,7 +900,7 @@ content: "";
 position: absolute;
 width: 100%;
 height: 100%;
-background-image: url("logoups.png"); /* Fondo por defecto */
+background-image: url("IMG/logoups.png"); /* Fondo por defecto */
 -moz-background-size: cover;-webkit-background-size: cover;background-size: cover;
 opacity: .1;
 }
