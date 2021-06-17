@@ -913,7 +913,7 @@ background-position: 50% 50%;
 cursor: pointer;
 }
 .imagen:nth-of-type(1) {
-background-image: url(https://lh4.googleusercontent.com/-3QNEIgX3Gv4/UCPyLTtnmHI/AAAAAAAAEDY/KGb0eEM9GZo/s720/fuerzas-naturaleza.jpg);
+background-image: url("IMG/cadena.png");
 }
 .imagen:nth-of-type(2) {
 background-image: url(https://lh5.googleusercontent.com/-KijskybjlCc/UCPyNCwVxPI/AAAAAAAAEDg/8AwgBhZyhG4/s800/fuerzas-naturaleza2.jpg);
